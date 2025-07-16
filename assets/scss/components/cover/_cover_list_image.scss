@@ -1,0 +1,10 @@
+.covers__list_image {
+    width: 185px;
+    height: 263px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        transition: transform .3s, filter .5s;
+    }
+}
