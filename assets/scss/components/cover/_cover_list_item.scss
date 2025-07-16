@@ -1,14 +1,19 @@
 .covers__list_item {
     overflow: hidden;
     position: relative;
+    border-radius: 7px;
     border: 1.5px solid rgb(0, 0, 0);
 
     &:hover {
         .covers__list_image {
             img {
-                filter: blur(35px);
-                transform: scale(0.9);
+                filter: blur(9px);
+                transform: scale(1.1);
             }
+        }
+        .covers__list--back{
+            z-index: 7;
+            opacity: 1;
         }
     }
 }
