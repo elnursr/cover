@@ -3,7 +3,7 @@
 .covers__list_item {
     overflow: hidden;
     position: relative;
-    border: 2.5px solid v.$main_color;
+    // border: 2.5px solid v.$main_color;
 
     &:hover {
         .covers__list_image {
@@ -11,7 +11,6 @@
 
                 &.covers--blur {
                     filter: blur(9px);
-                    transform: scale(1.1);
                 }
 
                 &.covers--scale {
@@ -22,10 +21,12 @@
 
         .covers__list--back {
             opacity: 1;
-            z-index: 7;
+            z-index: 3;
+            transform: scale(1);
 
             &.covers--scale {
                 transform: scale(1);
+                background-color: v.$main_color_alpha_5;
             }
         }
     }
