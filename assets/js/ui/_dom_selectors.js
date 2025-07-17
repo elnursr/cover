@@ -1,0 +1,1 @@
+export let coversList = document.querySelector('.covers__list');

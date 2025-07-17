@@ -1,0 +1,6 @@
+@use '../abstracts'as v;
+
+::selection {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: v.$main_color_alpha_5;
+}

@@ -1,12 +1,14 @@
+@use '../../abstracts'as v;
+
 .covers__list_link {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 5px;
+    padding: 5px 9px;
     border-radius: 7px;
     font-size: .9em;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid v.$main_color;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, .3);
+    background-color: v.$main_color;
 }
