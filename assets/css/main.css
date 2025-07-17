@@ -51,13 +51,10 @@
 .covers__list_item {
   overflow: hidden;
   position: relative;
-  border: 2.5px solid #01abf1;
 }
 .covers__list_item:hover .covers__list_image img.covers--blur {
   -webkit-filter: blur(9px);
           filter: blur(9px);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 .covers__list_item:hover .covers__list_image img.covers--scale {
   -webkit-transform: scale(0);
@@ -65,11 +62,14 @@
 }
 .covers__list_item:hover .covers__list--back {
   opacity: 1;
-  z-index: 7;
+  z-index: 3;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 .covers__list_item:hover .covers__list--back.covers--scale {
   -webkit-transform: scale(1);
           transform: scale(1);
+  background-color: rgba(1, 171, 241, 0.5);
 }
 
 .covers__list--back {
@@ -91,11 +91,11 @@
   padding: 12px;
   z-index: -1;
   opacity: 0;
-  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
-  background-color: rgba(1, 171, 241, 0.3);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  background-color: transparent;
 }
 .covers__list--back.cover--scale {
   -webkit-transform: scale(0);
@@ -153,9 +153,9 @@
   height: 100%;
   -webkit-filter: grayscale(35%);
           filter: grayscale(35%);
-  -webkit-transition: -webkit-transform 0.3s, -webkit-filter 0.5s;
-  transition: -webkit-transform 0.3s, -webkit-filter 0.5s;
-  transition: transform 0.3s, filter 0.5s;
-  transition: transform 0.3s, filter 0.5s, -webkit-transform 0.3s, -webkit-filter 0.5s;
+  -webkit-transition: -webkit-filter 0.3s, -webkit-transform 0.3s;
+  transition: -webkit-filter 0.3s, -webkit-transform 0.3s;
+  transition: filter 0.3s, transform 0.3s;
+  transition: filter 0.3s, transform 0.3s, -webkit-filter 0.3s, -webkit-transform 0.3s;
 }
 /*# sourceMappingURL=main.css.map */

@@ -20,3 +20,12 @@ getDataAysnc(tvSeriesUrl)
     .then(({ covers }) => {
         coverToUI(covers, coversList, 'tv_series');
     })
+
+
+let firstName = 'Java';
+let lastName = "Script";
+
+// let fullName = firstName + ' ' + lastName;
+let fullName = `${firstName}${lastName}`;
+
+console.log(fullName);

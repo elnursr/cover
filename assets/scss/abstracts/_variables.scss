@@ -1,3 +1,8 @@
+// $main_color:rgb(42, 224, 66);
+
+// $main_color_alpha_3:rgba(211, 198, 18, .3);
+// $main_color_alpha_5:rgba(211, 198, 18, .5);
+
 $main_color:rgb(1, 171, 241);
-$main_color_alpha_3:rgb(1, 171, 241, .3);
-$main_color_alpha_5:rgb(1, 171, 241, .5);
+$main_color_alpha_3:rgba($main_color, .3);
+$main_color_alpha_5:rgba($main_color, .5);
