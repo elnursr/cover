@@ -11,8 +11,29 @@
   font-family: "Roboto";
 }
 
+::-moz-selection {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(1, 171, 241, 0.5);
+}
+
+::selection {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(1, 171, 241, 0.5);
+}
+
+.covers {
+  padding: 15px;
+  background-color: #090b17;
+}
+
 .covers__heading {
+  text-transform: uppercase;
   text-align: center;
+  font-size: 2.3em;
+  letter-spacing: 1.1px;
+  padding: 12px 0;
+  text-shadow: 3px 3px 5px #01abf1;
+  color: #01abf1;
 }
 
 .covers__list {
@@ -30,18 +51,25 @@
 .covers__list_item {
   overflow: hidden;
   position: relative;
-  border-radius: 7px;
-  border: 1.5px solid rgb(0, 0, 0);
+  border: 2.5px solid #01abf1;
 }
-.covers__list_item:hover .covers__list_image img {
+.covers__list_item:hover .covers__list_image img.covers--blur {
   -webkit-filter: blur(9px);
           filter: blur(9px);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+.covers__list_item:hover .covers__list_image img.covers--scale {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
 .covers__list_item:hover .covers__list--back {
-  z-index: 7;
   opacity: 1;
+  z-index: 7;
+}
+.covers__list_item:hover .covers__list--back.covers--scale {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .covers__list--back {
@@ -63,23 +91,36 @@
   padding: 12px;
   z-index: -1;
   opacity: 0;
-  border-radius: 7px;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
-  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  background-color: rgba(1, 171, 241, 0.3);
+}
+.covers__list--back.cover--scale {
+  -webkit-transform: scale(0);
+          transform: scale(0);
 }
 
 .covers__list_title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   text-align: center;
-  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  font-size: 1.1em;
+  width: 155px;
+  color: white;
 }
 
 .covers__list_date {
-  color: rgb(255, 255, 255);
+  font-size: 1em;
+  color: white;
 }
 
 .covers__list_rating {
-  color: rgb(255, 255, 255);
+  font-size: 0.9em;
+  color: white;
 }
 
 .covers__list_link {
@@ -93,12 +134,12 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 5px;
-  padding: 5px;
+  padding: 5px 9px;
   border-radius: 7px;
   font-size: 0.9em;
-  border: 1px solid rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid #01abf1;
+  color: white;
+  background-color: #01abf1;
 }
 
 .covers__list_image {
@@ -106,8 +147,12 @@
   height: 263px;
 }
 .covers__list_image img {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100%;
+  -webkit-filter: grayscale(35%);
+          filter: grayscale(35%);
   -webkit-transition: -webkit-transform 0.3s, -webkit-filter 0.5s;
   transition: -webkit-transform 0.3s, -webkit-filter 0.5s;
   transition: transform 0.3s, filter 0.5s;

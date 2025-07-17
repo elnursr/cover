@@ -1,0 +1,15 @@
+{
+    "covers": [
+        {
+            "tv_series_title": "tv_series",
+            "tv_series": [
+                {
+                    "name": "prophet_joseph",
+                    "rating": 7.6,
+                    "release_year": "2008",
+                    "imdb_url": "https://www.imdb.com/title/tt3084150/?ref_=nv_sr_srsg_6_tt_5_nm_3_in_0_q_prphet"
+                }
+            ]
+        }
+    ]
+}
