@@ -13,8 +13,12 @@
                     filter: blur(9px);
                 }
 
-                &.covers--scale {
+                &.covers--zoom-out {
                     transform: scale(0);
+                }
+
+                &.covers--zoom-out-middle {
+                    transform: scale(.9);
                 }
             }
         }
@@ -24,7 +28,7 @@
             z-index: 3;
             transform: scale(1);
 
-            &.covers--scale {
+            &.covers--zoom-in {
                 transform: scale(1);
                 background-color: v.$main_color_alpha_5;
             }

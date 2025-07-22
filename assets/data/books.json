@@ -1,0 +1,16 @@
+{
+    "covers": [
+        {
+            "books_title": "books",
+            "books": [
+                {
+                    "name": "node_js_for_dot_net_developers",
+                    "rating": 7.7,
+                    "release_year": "2015",
+                    "image_extension_type": "png",
+                    "book_url": "https://www.google.az/books/edition/Node_js_for_NET_Developers/Lmw0BwAAQBAJ?hl=en&gbpv=0"
+                }
+            ]
+        }
+    ]
+}

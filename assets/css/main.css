@@ -56,9 +56,13 @@
   -webkit-filter: blur(9px);
           filter: blur(9px);
 }
-.covers__list_item:hover .covers__list_image img.covers--scale {
+.covers__list_item:hover .covers__list_image img.covers--zoom-out {
   -webkit-transform: scale(0);
           transform: scale(0);
+}
+.covers__list_item:hover .covers__list_image img.covers--zoom-out-middle {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 .covers__list_item:hover .covers__list--back {
   opacity: 1;
@@ -66,7 +70,7 @@
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.covers__list_item:hover .covers__list--back.covers--scale {
+.covers__list_item:hover .covers__list--back.covers--zoom-in {
   -webkit-transform: scale(1);
           transform: scale(1);
   background-color: rgba(1, 171, 241, 0.5);
