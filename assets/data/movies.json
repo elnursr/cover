@@ -7,42 +7,49 @@
                     "name": "interstellar",
                     "rating": 8.7,
                     "release_year": "2014",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_interstellar"
                 },
                 {
                     "name": "harry_potter_and_the_sorcerer's_stone",
                     "rating": 7.7,
                     "release_year": "2001",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt0241527/?ref_=nv_sr_srsg_4_tt_7_nm_0_in_0_q_harry%2520potter"
                 },
                 {
                     "name": "harry_potter_and_the_chamber_of_secrets",
                     "rating": 7.5,
                     "release_year": "2002",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt0295297/?ref_=nv_sr_srsg_10_tt_7_nm_0_in_0_q_Harry%2520Potter"
                 },
                 {
                     "name": "harry_potter_and_the_prisoner_of_azkaban",
                     "rating": 7.9,
                     "release_year": "2004",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt0304141/?ref_=nv_sr_srsg_8_tt_7_nm_0_in_0_q_harry%2520potter"
                 },
                 {
                     "name": "harry_potter_and_the_goblet_of_fire",
                     "rating": 7.7,
                     "release_year": "2005",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt0330373/?ref_=nv_sr_srsg_7_tt_7_nm_0_in_0_q_harry%2520potter"
                 },
                 {
                     "name": "harry_potter_and_the_deathly_hallows_part_1",
                     "rating": 7.7,
                     "release_year": "2010",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt0926084/?ref_=nv_sr_srsg_11_tt_7_nm_0_in_0_q_Harry%2520Potter"
                 },
                 {
                     "name": "harry_potter_and_the_deathly_hallows_part_2",
                     "rating": 8.1,
                     "release_year": "2011",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt1201607/?ref_=nv_sr_srsg_9_tt_7_nm_0_in_0_q_Harry%2520Potter"
                 }
             ]

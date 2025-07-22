@@ -1,6 +1,11 @@
-let baseLocalUrl = '../assets/data/';
+let baseLocalUrl = '../assets/data/',
+    baseExternalDataUrl = 'https://res.cloudinary.com/dom1qrf1d/',
+    externalDataUrl = `${baseExternalDataUrl}raw/upload/`;
+
+export let externalMediaUrl = `${baseExternalDataUrl}image/upload/`;
 
 export let
-    gamesUrl = `${baseLocalUrl}games.json`,
-    moviesUrl = `${baseLocalUrl}movies.json`,
-    tvSeriesUrl = `${baseLocalUrl}tv_series.json`;
+    gamesUrl = `${externalDataUrl}games.json`,
+    booksUrl = `${externalDataUrl}books.json`,
+    moviesUrl = `${externalDataUrl}movies.json`,
+    tvSeriesUrl = `${externalDataUrl}tv_series.json`;

@@ -7,24 +7,28 @@
                     "name": "mortal_kombat",
                     "rating": 8.3,
                     "release_year": "2011",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt1386939/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_mortal%2520kombat%2520komp"
                 },
                 {
                     "name": "mortal_kombat_XL",
                     "rating": 8.2,
                     "release_year": "2016",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt15671448/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_mortal%2520kombat%2520xl"
                 },
                 {
                     "name": "mortal_kombat_11",
                     "rating": 7.9,
                     "release_year": "2019",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt9398566/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_mortal%2520kombat%252011"
                 },
                 {
                     "name": "mortal_kombat_1",
                     "rating": 8.1,
                     "release_year": "2023",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt26862060/?ref_=nv_sr_srsg_1_tt_8_nm_0_in_0_q_mortal%2520kombat%25201"
                 }
             ]
@@ -36,48 +40,56 @@
                     "name": "assassin's_creed",
                     "rating": 8.0,
                     "release_year": "2007",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt0932936/?ref_=nv_sr_srsg_6_tt_8_nm_0_in_0_q_assassin%27s%2520creed"
                 },
                 {
                     "name": "assassin's_creed_II",
                     "rating": 9.0,
                     "release_year": "2009",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt1201133/?ref_=nv_sr_srsg_8_tt_8_nm_0_in_0_q_assassin%27s%2520creed"
                 },
                 {
                     "name": "assassin's_creed_IV_black_flag",
                     "rating": 8.7,
                     "release_year": "2013",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt2739708/?ref_=nv_sr_srsg_0_tt_7_nm_0_in_0_q_assassin%27s_creed_iv_black_flag"
                 },
                 {
                     "name": "assassin's_creed_syndicate",
                     "rating": 7.8,
                     "release_year": "2015",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt4332798/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_assassin%27s_creed_syndicate"
                 },
                 {
                     "name": "assassin's_creed_origins",
                     "rating": 8.4,
                     "release_year": "2017",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt7025920/?ref_=nv_sr_srsg_0_tt_6_nm_0_in_0_q_assassin%27s_creed_origins"
                 },
                 {
                     "name": "assassin's_creed_odyssey",
                     "rating": 8.4,
                     "release_year": "2018",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt8545606/?ref_=nv_sr_srsg_0_tt_4_nm_0_in_0_q_assassin%27s_creed_odyssey"
                 },
                 {
                     "name": "assassin's_creed_valhalla",
                     "rating": 7.8,
                     "release_year": "2020",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt12235026/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_assassin%27s_creed_valhalla"
                 },
                 {
                     "name": "assassin's_creed_mirage",
                     "rating": 7.1,
                     "release_year": "2023",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt22029092/?ref_=nv_sr_srsg_0_tt_4_nm_0_in_0_q_assassin%27s_creed_mirage"
                 }
             ]
@@ -89,42 +101,49 @@
                     "name": "grand_theft_auto_III",
                     "rating": 8.6,
                     "release_year": "2001",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt0277723/?ref_=nv_sr_srsg_9_tt_8_nm_0_in_0_q_grand%2520theft%2520a"
                 },
                 {
                     "name": "grand_theft_auto_vice_city",
                     "rating": 9.2,
                     "release_year": "2002",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt0314123/?ref_=nv_sr_srsg_8_tt_8_nm_0_in_0_q_grand%2520theft%2520auto"
                 },
                 {
                     "name": "grand_theft_auto_san_andreas",
                     "rating": 9.4,
                     "release_year": "2004",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt0383385/?ref_=nv_sr_srsg_10_tt_8_nm_0_in_0_q_grand%2520theft%2520auto"
                 },
                 {
                     "name": "grand_theft_auto_IV",
                     "rating": 8.9,
                     "release_year": "2008",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt0802999/?ref_=nv_sr_srsg_6_tt_8_nm_0_in_0_q_grand%2520theft%2520auto"
                 },
                 {
                     "name": "grand_theft_auto_V",
                     "rating": 9.4,
                     "release_year": "2013",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt2103188/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_grand%2520theft%2520auto"
                 },
                 {
                     "name": "grand_theft_auto_trilogy_the_definitive_edition",
                     "rating": 4.4,
                     "release_year": "2021",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt15613288/?ref_=nv_sr_srsg_7_tt_8_nm_0_in_0_q_grand%2520theft%2520auto%2520tr"
                 },
                 {
                     "name": "grand_theft_auto_VI",
                     "rating": 10,
                     "release_year": "2026",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/game_title/tt18282598/?ref_=nv_sr_srsg_11_tt_8_nm_0_in_0_q_grand%2520theft%2520auto"
                 }
             ]
@@ -136,36 +155,42 @@
                     "name": "wolfenstein_return_to_castle",
                     "rating": 8.3,
                     "release_year": "2001",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt0289421/?ref_=nv_sr_srsg_5_tt_8_nm_0_in_0_q_wolfenstein"
                 },
                 {
                     "name": "wolfenstein",
                     "rating": 7.4,
                     "release_year": "2009",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt1219833/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_wolfenstein"
                 },
                 {
                     "name": "wolfenstein_the_new_order",
                     "rating": 8.2,
                     "release_year": "2014",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt3382518/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_wolfenstein"
                 },
                 {
                     "name": "wolfenstein_the_old_blood",
                     "rating": 7.7,
                     "release_year": "2015",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt4540758/?ref_=nv_sr_srsg_7_tt_8_nm_0_in_0_q_wolfenstein"
                 },
                 {
                     "name": "wolfenstein_ii_the_new_colossus",
                     "rating": 7.9,
                     "release_year": "2017",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt7006358/?ref_=nv_sr_srsg_4_tt_8_nm_0_in_0_q_wolfenstein"
                 },
                 {
                     "name": "wolfenstein_youngblood",
                     "rating": 5.1,
                     "release_year": "2019",
+                    "image_extension_type": "jpg",
                     "imdb_url": "https://www.imdb.com/title/tt9310382/?ref_=nv_sr_srsg_6_tt_8_nm_0_in_0_q_wolfenstein"
                 }
             ]
