@@ -64,6 +64,10 @@
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
+.covers__list_item:hover .covers__list_image img.covers--rotate {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
 .covers__list_item:hover .covers__list--back {
   opacity: 1;
   z-index: 3;
