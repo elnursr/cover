@@ -13,8 +13,12 @@ getDataAysnc(gamesUrl)
             contentType: 'game',
             coverListElement: coversList,
             url: externalMediaUrl,
-            backEffect: ['covers--zoom-in'],
-            frontEffect: ['covers--zoom-out-middle', 'covers--blur']
+            backEffect: {
+                zoom_in: 'covers--zoom-in'
+            },
+            frontEffect: {
+                zoom_out_middle: 'covers--zoom-out-middle'
+            }
         });
     })
 
@@ -25,8 +29,12 @@ getDataAysnc(moviesUrl)
             contentType: 'movie',
             coverListElement: coversList,
             url: externalMediaUrl,
-            backEffect: ['covers--zoom-in'],
-            frontEffect: ['covers--zoom-out-middle', 'covers--blur']
+            backEffect: {
+                zoom_in: 'covers--zoom-in'
+            },
+            frontEffect: {
+                blur: 'covers--blur'
+            }
         });
     })
 
@@ -37,8 +45,12 @@ getDataAysnc(tvSeriesUrl)
             contentType: 'tv_series',
             coverListElement: coversList,
             url: externalMediaUrl,
-            backEffect: ['covers--zoom-in'],
-            frontEffect: ['covers--zoom-out-middle', 'covers--blur']
+            backEffect: {
+                zoom_in: 'covers--zoom-in'
+            },
+            frontEffect: {
+                blur: 'covers--blur'
+            }
         });
     })
 
@@ -49,7 +61,12 @@ getDataAysnc(booksUrl)
             contentType: 'book',
             coverListElement: coversList,
             url: externalMediaUrl,
-            backEffect: ['covers--zoom-in'],
-            frontEffect: ['covers--zoom-out-middle', 'covers--blur']
+            backEffect: {
+                zoom_in: 'covers--zoom-in'
+            },
+            frontEffect: {
+                zoom_out_middle: 'covers--zoom-out-middle',
+                blur: 'covers--blur'
+            }
         });
     })

@@ -20,6 +20,11 @@
                 &.covers--zoom-out-middle {
                     transform: scale(.9);
                 }
+
+                &.covers--rotate {
+                    transform: rotateY(180deg);
+                    // filter: grayscale(100%);
+                }
             }
         }
 

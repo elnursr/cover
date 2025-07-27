@@ -1,5 +1,5 @@
 
-export function coverToUI({ covers, coverListElement, contentType = 'game', url = '', backEffect, frontEffect }) {
+export function coverToUI({ covers, coverListElement, contentType = 'game', url = '', backEffect: { zoom_in }, frontEffect: { blur, rotate, zoom_out_middle } }) {
 
     for (let i = 0; i < covers.length; i++) {
 
@@ -18,7 +18,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                     coverListElement.innerHTML +=
                         `
                             <li class="covers__list_item">
-                                <div class="covers__list--back ${backEffect[0]}">
+                                <div class="covers__list--back ${zoom_in}">
                                     <h1 class="covers__list_title">${name.replace(/_/g, ' ')}</h1>
                                     <h3 class="covers__list_date"><i class="fa-solid fa-calendar-days"></i> ${release_year}</h3>
                                     <h4 class="covers__list_rating"><i class="fa-solid fa-star-half-stroke"></i> ${rating.toFixed(1)} / 10</h4>
@@ -26,7 +26,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                                 </div>
                                 <div class="covers__list--front">
                                     <div class="covers__list_image">
-                                        <img src="${url}${name.replace(/%27/g, "'")}.${image_extension_type}" alt="${name}" class=${frontEffect[0]}>
+                                        <img src="${url}${name.replace(/%27/g, "'")}.${image_extension_type}" alt="${name}" class=${zoom_out_middle}>
                                     </div>
                                 </div>
                             </li>
@@ -44,7 +44,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                     coverListElement.innerHTML +=
                         `
                             <li class="covers__list_item">
-                                <div class="covers__list--back ${backEffect[0]}">
+                                <div class="covers__list--back ${zoom_in}">
                                     <h1 class="covers__list_title">${name.replace(/_/g, ' ')}</h1>
                                     <h3 class="covers__list_date"><i class="fa-solid fa-calendar-days"></i> ${release_year}</h3>
                                     <h4 class="covers__list_rating"><i class="fa-solid fa-star-half-stroke"></i> ${rating.toFixed(1)} / 10</h4>
@@ -52,7 +52,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                                 </div>
                                 <div class="covers__list--front">
                                     <div class="covers__list_image">
-                                        <img src="${url}${name}.${image_extension_type}" alt="${name}" class=${frontEffect[0]}>
+                                        <img src="${url}${name}.${image_extension_type}" alt="${name}" class=${zoom_out_middle}>
                                     </div>
                                 </div>
                             </li>
@@ -73,7 +73,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                     coverListElement.innerHTML +=
                         `
                             <li class="covers__list_item">
-                                <div class="covers__list--back">
+                                <div class="covers__list--back ${zoom_in}">
                                     <h1 class="covers__list_title">${name.replace(/_/g, ' ')}</h1>
                                     <h3 class="covers__list_date"><i class="fa-solid fa-calendar-days"></i> ${release_year}</h3>
                                     <h4 class="covers__list_rating"><i class="fa-solid fa-star-half-stroke"></i> ${rating.toFixed(1)} / 10</h4>
@@ -81,7 +81,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                                 </div>
                                 <div class="covers__list--front">
                                     <div class="covers__list_image">
-                                        <img src="${url}${name.replace(/%27/g, "'")}.${image_extension_type}" alt="${name}" class=${frontEffect[1]}>
+                                        <img src="${url}${name.replace(/%27/g, "'")}.${image_extension_type}" alt="${name}" class=${blur}>
                                     </div>
                                 </div>
                             </li>
@@ -99,7 +99,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                     coverListElement.innerHTML +=
                         `
                             <li class="covers__list_item">
-                                <div class="covers__list--back">
+                                <div class="covers__list--back ${zoom_in}">
                                     <h1 class="covers__list_title">${name.replace(/_/g, ' ')}</h1>
                                     <h3 class="covers__list_date"><i class="fa-solid fa-calendar-days"></i> ${release_year}</h3>
                                     <h4 class="covers__list_rating"><i class="fa-solid fa-star-half-stroke"></i> ${rating.toFixed(1)} / 10</h4>
@@ -107,7 +107,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                                 </div>
                                 <div class="covers__list--front">
                                     <div class="covers__list_image">
-                                        <img src="${url}${name}.${image_extension_type}" alt="${name}" class=${frontEffect[1]}>
+                                        <img src="${url}${name}.${image_extension_type}" alt="${name}" class=${blur}>
                                     </div>
                                 </div>
                             </li>
