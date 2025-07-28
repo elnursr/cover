@@ -13,8 +13,4 @@
     opacity: 0;
     transition: opacity .3s, transform .3s;
     background-color: transparent;
-
-    &.cover--scale {
-        transform: scale(0);
-    }
 }

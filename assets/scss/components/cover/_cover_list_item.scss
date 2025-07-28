@@ -1,5 +1,7 @@
 @use '../../abstracts'as v;
 
+@use '../../utility/'as u;
+
 .covers__list_item {
     overflow: hidden;
     position: relative;
@@ -8,22 +10,16 @@
     &:hover {
         .covers__list_image {
             img {
-
-                &.covers--blur {
-                    filter: blur(9px);
+                &.blur {
+                    @include u.setEffect('filter', 'blur', false, false);
                 }
 
-                &.covers--zoom-out {
-                    transform: scale(0);
+                &.scale {
+                    @include u.setEffect(transform, 'scale', true, false);
                 }
 
-                &.covers--zoom-out-middle {
-                    transform: scale(.9);
-                }
-
-                &.covers--rotate {
-                    transform: rotateY(180deg);
-                    // filter: grayscale(100%);
+                &.rotate {
+                    @include u.setEffect(transform, 'rotate', false, true);
                 }
             }
         }
@@ -31,12 +27,7 @@
         .covers__list--back {
             opacity: 1;
             z-index: 3;
-            transform: scale(1);
-
-            &.covers--zoom-in {
-                transform: scale(1);
-                background-color: v.$main_color_alpha_5;
-            }
+            background-color: v.$main_color_alpha_5;
         }
     }
 }

@@ -6,3 +6,16 @@
 $main_color:rgb(1, 171, 241);
 $main_color_alpha_3:rgba($main_color, .3);
 $main_color_alpha_5:rgba($main_color, .5);
+
+$values_scale_blur: (00:0,
+    01:.1,
+    02:.2,
+    03:.3,
+    04:.4,
+    05:.5,
+    06:.6,
+    07:.7,
+    08:.8,
+    09:.9,
+    1_0:1
+    );

@@ -13,11 +13,8 @@ getDataAysnc(gamesUrl)
             contentType: 'game',
             coverListElement: coversList,
             url: externalMediaUrl,
-            backEffect: {
-                zoom_in: 'covers--zoom-in'
-            },
             frontEffect: {
-                zoom_out_middle: 'covers--zoom-out-middle'
+                scale_09: 'scale-09'
             }
         });
     })
@@ -29,11 +26,8 @@ getDataAysnc(moviesUrl)
             contentType: 'movie',
             coverListElement: coversList,
             url: externalMediaUrl,
-            backEffect: {
-                zoom_in: 'covers--zoom-in'
-            },
             frontEffect: {
-                blur: 'covers--blur'
+                blur_07: 'blur-07',
             }
         });
     })
@@ -45,28 +39,22 @@ getDataAysnc(tvSeriesUrl)
             contentType: 'tv_series',
             coverListElement: coversList,
             url: externalMediaUrl,
-            backEffect: {
-                zoom_in: 'covers--zoom-in'
-            },
             frontEffect: {
-                blur: 'covers--blur'
+                rotate_01: 'rotate-01'
             }
         });
     })
 
-getDataAysnc(booksUrl)
-    .then(({ covers }) => {
-        coverToUI({
-            covers,
-            contentType: 'book',
-            coverListElement: coversList,
-            url: externalMediaUrl,
-            backEffect: {
-                zoom_in: 'covers--zoom-in'
-            },
-            frontEffect: {
-                zoom_out_middle: 'covers--zoom-out-middle',
-                blur: 'covers--blur'
-            }
-        });
-    })
+// getDataAysnc(booksUrl)
+//     .then(({ covers }) => {
+//         coverToUI({
+//             covers,
+//             contentType: 'book',
+//             coverListElement: coversList,
+//             url: externalMediaUrl,
+//             frontEffect: {
+//                 zoom_out_middle: 'covers--zoom-out-middle',
+//                 blur: 'covers--blur'
+//             }
+//         });
+//     })
