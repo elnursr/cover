@@ -40,21 +40,20 @@ getDataAysnc(tvSeriesUrl)
             coverListElement: coversList,
             url: externalMediaUrl,
             frontEffect: {
-                rotate_01: 'rotate-01'
+                scale_08: 'scale-08'
             }
         });
     })
 
-// getDataAysnc(booksUrl)
-//     .then(({ covers }) => {
-//         coverToUI({
-//             covers,
-//             contentType: 'book',
-//             coverListElement: coversList,
-//             url: externalMediaUrl,
-//             frontEffect: {
-//                 zoom_out_middle: 'covers--zoom-out-middle',
-//                 blur: 'covers--blur'
-//             }
-//         });
-//     })
+getDataAysnc(booksUrl)
+    .then(({ covers }) => {
+        coverToUI({
+            covers,
+            contentType: 'book',
+            coverListElement: coversList,
+            url: externalMediaUrl,
+            frontEffect: {
+                blur_09: 'blur-09',
+            }
+        });
+    })

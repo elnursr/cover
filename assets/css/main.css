@@ -140,50 +140,6 @@
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.covers__list_item:hover .covers__list_image img.rotate-00 {
-  -webkit-transform: rotate(10deg);
-          transform: rotate(10deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-01 {
-  -webkit-transform: rotate(20deg);
-          transform: rotate(20deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-02 {
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-03 {
-  -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-04 {
-  -webkit-transform: rotate(50deg);
-          transform: rotate(50deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-05 {
-  -webkit-transform: rotate(60deg);
-          transform: rotate(60deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-06 {
-  -webkit-transform: rotate(70deg);
-          transform: rotate(70deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-07 {
-  -webkit-transform: rotate(80deg);
-          transform: rotate(80deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-08 {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-09 {
-  -webkit-transform: rotate(100deg);
-          transform: rotate(100deg);
-}
-.covers__list_item:hover .covers__list_image img.rotate-01_0 {
-  -webkit-transform: rotate(110deg);
-          transform: rotate(110deg);
-}
 .covers__list_item:hover .covers__list--back {
   opacity: 1;
   z-index: 3;

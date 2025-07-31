@@ -10,16 +10,13 @@
     &:hover {
         .covers__list_image {
             img {
+
                 &.blur {
-                    @include u.setEffect('filter', 'blur', false, false);
+                    @include u.setEffect('filter', 'blur', false);
                 }
 
                 &.scale {
-                    @include u.setEffect(transform, 'scale', true, false);
-                }
-
-                &.rotate {
-                    @include u.setEffect(transform, 'rotate', false, true);
+                    @include u.setEffect(transform, 'scale', true);
                 }
             }
         }
