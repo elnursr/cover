@@ -1,18 +1,12 @@
 @use '../abstracts'as v;
 
-@mixin setEffect($property, $propertyType, $isScale:false, $isRotate:false) {
+@mixin setEffect($property, $propertyType, $isScale:false) {
 
     @each $key,
     $value_scale_blur in v.$values_scale_blur {
         @if($isScale) {
             &-0#{$key} {
                 #{$property}: #{$propertyType}($value_scale_blur);
-            }
-        }
-
-        @else if($isRotate) {
-            &-0#{$key} {
-                #{$property}: #{$propertyType}(($value_scale_blur*100)+10deg);
             }
         }
 

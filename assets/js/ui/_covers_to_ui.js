@@ -1,5 +1,5 @@
 
-export function coverToUI({ covers, coverListElement, contentType = 'game', url = '', frontEffect: { blur_07, scale_09, rotate_01 } }) {
+export function coverToUI({ covers, coverListElement, contentType = 'game', url = '', frontEffect: { blur_07, blur_09, scale_08, scale_09 } }) {
 
     for (let i = 0; i < covers.length; i++) {
 
@@ -52,7 +52,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                                 </div>
                                 <div class="covers__list--front">
                                     <div class="covers__list_image">
-                                        <img src="${url}${name}.${image_extension_type}" alt="${name}" class=${zoom_out_middle}>
+                                        <img src="${url}${name}.${image_extension_type}" alt="${name}" class=${blur_09}>
                                     </div>
                                 </div>
                             </li>
@@ -107,7 +107,7 @@ export function coverToUI({ covers, coverListElement, contentType = 'game', url 
                                 </div>
                                 <div class="covers__list--front">
                                     <div class="covers__list_image">
-                                        <img src="${url}${name}.${image_extension_type}" alt="${name}" class=${rotate_01}>
+                                        <img src="${url}${name}.${image_extension_type}" alt="${name}" class=${scale_08}>
                                     </div>
                                 </div>
                             </li>
